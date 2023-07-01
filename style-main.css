@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital@1&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    font-family: 'Bree Serif', serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #e2f16b;
+    width: 5%;
+    border-width: 4px;
+    margin: 50px auto;
+}

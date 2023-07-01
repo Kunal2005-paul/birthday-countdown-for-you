@@ -1,0 +1,282 @@
+body {
+    background-image: url(./home-body-2.jpg);
+    background-position: 50% 4%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.wish-line {
+    margin: 50px auto 20px;
+    padding: 10px 30px;
+    width: 90vw;
+}
+
+.wish-line h1 {
+    color: #310092;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.my-image {
+    display: inline-block;
+    margin: 20px 0px;
+    height: 180px;
+    width: 180px;
+}
+
+.my-image img {
+    width: 180px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 6px #fff;
+}
+
+.my-count {
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.my-count h3 {
+    color: rgb(1, 24, 49);
+    font-weight: bold;
+    margin: 10px 0px 20px;
+    font-size: 25px;
+}
+
+.my-count h3 span {
+    color: red;
+    font-weight: bold;
+}
+
+.my-count .my-watch {
+    width: 390px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-count .my-watch div {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(27,180,3);
+    background: linear-gradient(132deg, rgba(27,180,3,1) 0%, rgba(131,236,161,1) 39%, rgba(255,255,255,1) 73%);
+
+    box-shadow: 0px 0px 5px 2px #ffffff;
+}
+
+.my-count .my-watch div p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.my-count .my-watch div span {
+    font-size: 15px;
+    margin: 0;
+}
+
+.social {
+    max-width: 400px;
+    padding: 0px 20px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.social .fb-insta-icon-name{
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social > div > div{
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 6px 2px #ffffff;
+    background: rgb(27,180,3);
+    background: linear-gradient(132deg, rgba(27,180,3,1) 0%, rgba(131,236,161,1) 39%, rgba(255,255,255,1) 73%);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.social > div > div:hover {
+    width: 43px;
+    height: 43px;
+    background: linear-gradient(320deg, rgba(27,180,3,1) 0%, rgba(131,236,161,1) 39%, rgba(255,255,255,1) 73%);
+    box-shadow: 0px 0px 6px 5px #ffffff;
+
+}
+
+.social > div > a{
+    text-decoration: none;
+    color: linear-gradient(320deg, rgba(218,62,209,1) 0%, rgba(236,131,232,1) 39%, rgba(255,255,255,1) 82%);
+    font-weight: bold;
+    font-size: 12px;
+    transition: all 0.1s ease-in-out;
+}
+
+.social > div > a:hover{
+    color: #7f41fa;
+}
+
+@media only screen and (max-width:1250px) {
+    .wish-line h1 {
+        font-size: 35px;
+        color: #b99af7;
+    }
+
+    .my-count h3 {
+        font-size: 20px;
+    }
+
+    .my-image {
+        height: 100px;
+        width: 100px;
+    }
+
+    .my-image img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .wish-line {
+        margin: 12vh auto 10px;
+        padding: 10px 15px;
+        line-height: normal;
+    }
+
+    .wish-line h1 {
+        font-size: 28px;
+        color: #b99af7;
+    }
+
+    .my-image {
+        height: 80px;
+        width: 80px;
+    }
+
+    .my-image img {
+        width: 80px;
+    }
+
+    .my-count {
+        width: 350px;
+    }
+
+    .my-count h3 {
+        font-size: 15px;
+    }
+
+    .my-count .my-watch {
+        width: 300px;
+    }
+
+    .my-count .my-watch div {
+
+        width: 60px;
+        height: 60px;
+    }
+
+    .my-count .my-watch div p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .my-count .my-watch div span {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .social > div > div {
+        width: 38px;
+        height: 38px;
+    }
+
+    .social > div > div:hover {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .social > div > a{
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+
+    .wish-line h1 {
+        font-size: 20px;
+    }
+
+    .my-count {
+        width: 200px;
+        padding: 0px;
+    }
+
+    .my-count h3 {
+        font-size: 15px;
+    }
+
+    .my-count .my-watch {
+        width: 200px;
+        height: 50px;
+    }
+
+    .my-count .my-watch div {
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .my-count .my-watch div p {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .my-count .my-watch div span {
+        font-size: 6px;
+        margin: 0;
+    }
+
+    .social {
+        width: 285px;
+    }
+
+    .social > div > div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social > div > div:hover {
+        width: 32px;
+        height: 32px;
+    }
+
+    .social > div > a{
+        font-size: 6px;
+    }
+}
